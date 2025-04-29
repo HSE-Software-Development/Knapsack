@@ -25,6 +25,9 @@ impl AlgorithmsService {
             Box::new(DynamicKnapsackSolver),
             Box::new(LazyDynamicKnapsackSolver),
             Box::new(GreedyKnapsackSolver),
+            Box::new(BranchAndBoundKnapsackSolver),
+            Box::new(MeetInTheMiddleKnapsackSolver),
+            Box::new(FptasKnapsackSolver)
         ]
     }
 
